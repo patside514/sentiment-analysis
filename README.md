@@ -23,8 +23,8 @@ Une application SaaS complète en Python pour analyser le sentiment des réseaux
 
 ```bash
 # Cloner le dépôt
-git clone https://github.com/votre-repo/social-media-sentiment-analyzer.git
-cd social-media-sentiment-analyzer
+git clone https://github.com/votre-repo/sentiment-analysis.git
+cd sentiment-analysis
 
 # Créer un environnement virtuel
 python -m venv venv
