@@ -18,7 +18,7 @@ setup(
     description="A comprehensive tool for analyzing sentiment from social media platforms",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ninjatech-ai/social-media-sentiment-analyzer",
+    url="https://github.com/patside514/sentiment-analysis",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
