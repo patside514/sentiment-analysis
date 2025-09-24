@@ -282,12 +282,3 @@ Les contributions sont les bienvenues ! Veuillez :
 4. Push vers la branche
 5. Ouvrir une Pull Request
 
-## 📞 Contact
-
-Pour toute question ou suggestion :
-- Email : contact@ninjatech.ai
-- GitHub : https://github.com/ninjatech-ai
-
----
-
-**Made with ❤️ by NinjaTech AI Team**
