@@ -1,0 +1,6 @@
+total 20
+drwxr-xr-x 2 root root  100 Sep 20 13:37 .
+drwxr-xr-x 4 root root 4096 Sep 20 13:37 ..
+-rw-r--r-- 1 root root 7104 Sep 20 13:37 raw_data_20250920_133744.csv
+-rw-r--r-- 1 root root  330 Sep 20 13:37 report_metadata.json
+-rw-r--r-- 1 root root  216 Sep 20 13:37 sentiment_summary.json

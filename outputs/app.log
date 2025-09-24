@@ -1,0 +1,35 @@
+2025-09-20 13:24:11,058 - src.nlp.sentiment_analyzer - INFO - TextBlob sentiment analysis available
+2025-09-20 13:24:11,108 - src.nlp.keyword_extractor - ERROR - TF-IDF extraction error: The 'stop_words' parameter of TfidfVectorizer must be a str among {'english'}, an instance of 'list' or None. Got 'french' instead.
+2025-09-20 13:24:11,109 - src.nlp.keyword_extractor - WARNING - spaCy not available, falling back to TF-IDF
+2025-09-20 13:24:11,110 - src.nlp.keyword_extractor - ERROR - TF-IDF extraction error: The 'stop_words' parameter of TfidfVectorizer must be a str among {'english'}, an instance of 'list' or None. Got 'french' instead.
+2025-09-20 13:24:11,111 - src.nlp.keyword_extractor - ERROR - TF-IDF extraction error: The 'stop_words' parameter of TfidfVectorizer must be a str among {'english'}, an instance of 'list' or None. Got 'french' instead.
+2025-09-20 13:24:11,112 - src.nlp.keyword_extractor - WARNING - spaCy not available, falling back to TF-IDF
+2025-09-20 13:24:11,113 - src.nlp.keyword_extractor - ERROR - TF-IDF extraction error: The 'stop_words' parameter of TfidfVectorizer must be a str among {'english'}, an instance of 'list' or None. Got 'french' instead.
+2025-09-20 13:24:11,402 - src.main - INFO - SocialMediaAnalyzer initialized
+2025-09-20 13:24:11,403 - src.nlp.sentiment_analyzer - INFO - TextBlob sentiment analysis available
+2025-09-20 13:24:11,413 - src.nlp.keyword_extractor - ERROR - TF-IDF extraction error: The 'stop_words' parameter of TfidfVectorizer must be a str among {'english'}, an instance of 'list' or None. Got 'french' instead.
+2025-09-20 13:24:11,421 - src.nlp.keyword_extractor - WARNING - spaCy not available, falling back to TF-IDF
+2025-09-20 13:24:11,428 - src.nlp.keyword_extractor - ERROR - TF-IDF extraction error: The 'stop_words' parameter of TfidfVectorizer must be a str among {'english'}, an instance of 'list' or None. Got 'french' instead.
+2025-09-20 13:24:11,431 - src.utils.file_manager - INFO - Saved 50 records to raw_data_20250920_132411.csv
+2025-09-20 13:24:11,432 - src.utils.file_manager - INFO - Saved JSON data to sentiment_summary
+2025-09-20 13:24:11,432 - src.utils.file_manager - INFO - Saved JSON data to report_metadata
+2025-09-20 13:24:11,432 - src.utils.file_manager - INFO - Analysis report saved to /workspace/outputs/DemoService_demo_20250920_132411
+2025-09-20 13:25:23,765 - src.nlp.sentiment_analyzer - INFO - TextBlob sentiment analysis available
+2025-09-20 13:37:43,740 - src.nlp.sentiment_analyzer - INFO - TextBlob sentiment analysis available
+2025-09-20 13:37:43,851 - src.nlp.keyword_extractor - WARNING - spaCy not available, falling back to TF-IDF
+2025-09-20 13:37:43,855 - src.nlp.keyword_extractor - WARNING - spaCy not available, falling back to TF-IDF
+2025-09-20 13:37:44,119 - src.main - INFO - SocialMediaAnalyzer initialized
+2025-09-20 13:37:44,119 - src.nlp.sentiment_analyzer - INFO - TextBlob sentiment analysis available
+2025-09-20 13:37:44,136 - src.nlp.keyword_extractor - WARNING - spaCy not available, falling back to TF-IDF
+2025-09-20 13:37:44,146 - src.utils.file_manager - INFO - Saved 50 records to raw_data_20250920_133744.csv
+2025-09-20 13:37:44,146 - src.utils.file_manager - INFO - Saved JSON data to sentiment_summary
+2025-09-20 13:37:44,146 - src.utils.file_manager - INFO - Saved JSON data to report_metadata
+2025-09-20 13:37:44,146 - src.utils.file_manager - INFO - Analysis report saved to /workspace/outputs/DemoService_demo_20250920_133744
+2025-09-20 13:39:08,063 - src.nlp.sentiment_analyzer - INFO - TextBlob sentiment analysis available
+2025-09-20 13:41:39,714 - src.main - INFO - SocialMediaAnalyzer initialized
+2025-09-20 13:41:39,714 - src.main - INFO - Starting analysis: service=Netflix, source=twitter, days=7, max_posts=50
+2025-09-20 13:41:39,714 - src.extractors.twitter_extractor - WARNING - Twitter API credentials not available, will use snscrape
+2025-09-20 13:41:39,714 - src.extractors.twitter_extractor - INFO - Extracting Twitter posts for 'Netflix' from last 7 days
+2025-09-20 13:41:39,714 - src.extractors.base_extractor - ERROR - Extraction error in Twitter extraction: No Twitter extraction method available
+2025-09-20 13:41:39,714 - src.main - INFO - Extracted 0 posts from twitter
+2025-09-20 13:41:39,714 - src.main - ERROR - No data extracted

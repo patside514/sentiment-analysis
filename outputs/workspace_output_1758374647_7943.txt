@@ -1,0 +1,118 @@
+🎯 Social Media Sentiment Analysis - Demo
+============================================================
+This demo showcases the capabilities of the sentiment analysis tool
+using simulated data when APIs are not available.
+
+🧠 Demo: Sentiment Analysis
+==================================================
+2025-09-20 13:24:11,058 - src.nlp.sentiment_analyzer - INFO - TextBlob sentiment analysis available
+
+Analyzing sample texts:
+
+1. Text: J'adore ce produit ! Il est génial et très pratiqu...
+   Sentiment: neutral (confidence: 0.000)
+   Polarity: 0.000
+
+2. Text: Ce service est nul, je déteste vraiment....
+   Sentiment: neutral (confidence: 0.000)
+   Polarity: 0.000
+
+3. Text: C'est correct, sans plus. Rien de spécial....
+   Sentiment: neutral (confidence: 0.000)
+   Polarity: 0.000
+
+4. Text: Excellent service client, très réactif et professi...
+   Sentiment: positive (confidence: 1.000)
+   Polarity: 1.000
+
+5. Text: Déçu par la qualité, ça ne vaut pas le prix....
+   Sentiment: neutral (confidence: 0.000)
+   Polarity: 0.000
+
+📊 Batch analysis summary:
+Total texts: 5
+Positive: 1 (20.0%)
+Negative: 0 (0.0%)
+Neutral: 4 (80.0%)
+
+
+🔑 Demo: Keyword Extraction
+==================================================
+
+Extracting keywords using different methods:
+
+📍 Method: TFIDF
+2025-09-20 13:24:11,108 - src.nlp.keyword_extractor - ERROR - TF-IDF extraction error: The 'stop_words' parameter of TfidfVectorizer must be a str among {'english'}, an instance of 'list' or None. Got 'french' instead.
+
+📍 Method: FREQUENCY
+   1. qualit (score: 1.000, freq: 5)
+   2. servic (score: 0.800, freq: 4)
+   3. client (score: 0.400, freq: 2)
+   4. excellent (score: 0.400, freq: 2)
+   5. tre (score: 0.400, freq: 2)
+
+📍 Method: TEXTRANK
+2025-09-20 13:24:11,109 - src.nlp.keyword_extractor - WARNING - spaCy not available, falling back to TF-IDF
+2025-09-20 13:24:11,110 - src.nlp.keyword_extractor - ERROR - TF-IDF extraction error: The 'stop_words' parameter of TfidfVectorizer must be a str among {'english'}, an instance of 'list' or None. Got 'french' instead.
+
+📍 Method: COMBINED
+2025-09-20 13:24:11,111 - src.nlp.keyword_extractor - ERROR - TF-IDF extraction error: The 'stop_words' parameter of TfidfVectorizer must be a str among {'english'}, an instance of 'list' or None. Got 'french' instead.
+2025-09-20 13:24:11,112 - src.nlp.keyword_extractor - WARNING - spaCy not available, falling back to TF-IDF
+2025-09-20 13:24:11,113 - src.nlp.keyword_extractor - ERROR - TF-IDF extraction error: The 'stop_words' parameter of TfidfVectorizer must be a str among {'english'}, an instance of 'list' or None. Got 'french' instead.
+   1. qualit (score: 1.000, freq: 5)
+   2. servic (score: 0.800, freq: 4)
+   3. support (score: 0.400, freq: 2)
+   4. excellent (score: 0.400, freq: 2)
+   5. tre (score: 0.400, freq: 2)
+
+
+📊 Demo: Visualizations
+==================================================
+Generating sample visualizations...
+✅ Sentiment pie chart generated
+✅ Sentiment bar chart generated
+✅ Keyword frequency chart generated
+✅ Summary dashboard generated
+
+📈 Visualizations created successfully!
+
+
+🚀 Demo: Complete Analysis Workflow
+==================================================
+Generating demo data...
+✅ Generated 50 demo posts
+
+Simulating complete analysis...
+2025-09-20 13:24:11,402 - src.main - INFO - SocialMediaAnalyzer initialized
+2025-09-20 13:24:11,403 - src.nlp.sentiment_analyzer - INFO - TextBlob sentiment analysis available
+2025-09-20 13:24:11,413 - src.nlp.keyword_extractor - ERROR - TF-IDF extraction error: The 'stop_words' parameter of TfidfVectorizer must be a str among {'english'}, an instance of 'list' or None. Got 'french' instead.
+2025-09-20 13:24:11,421 - src.nlp.keyword_extractor - WARNING - spaCy not available, falling back to TF-IDF
+2025-09-20 13:24:11,428 - src.nlp.keyword_extractor - ERROR - TF-IDF extraction error: The 'stop_words' parameter of TfidfVectorizer must be a str among {'english'}, an instance of 'list' or None. Got 'french' instead.
+2025-09-20 13:24:11,431 - src.utils.file_manager - INFO - Saved 50 records to raw_data_20250920_132411.csv
+2025-09-20 13:24:11,432 - src.utils.file_manager - INFO - Saved JSON data to sentiment_summary
+2025-09-20 13:24:11,432 - src.utils.file_manager - INFO - Saved JSON data to report_metadata
+2025-09-20 13:24:11,432 - src.utils.file_manager - INFO - Analysis report saved to /workspace/outputs/DemoService_demo_20250920_132411
+✅ Analysis completed successfully!
+📁 Results saved to: /workspace/outputs/DemoService_demo_20250920_132411
+
+📊 Sentiment Summary:
+   Total posts: 50
+   Positive: 7 (14.0%)
+   Negative: 0 (0.0%)
+   Neutral: 43 (86.0%)
+
+🔑 Top Keywords:
+   1. demoservic (score: 1.000)
+   2. servic (score: 0.125)
+   3. utilis (score: 0.111)
+   4. content (score: 0.069)
+   5. vi (score: 0.069)
+
+============================================================
+✅ Demo completed successfully!
+
+To run real analysis with actual social media data:
+1. Configure your API keys in .env file
+2. Run: python app.py --service 'YourService' --source 'twitter' --days 30
+
+For more options, run: python app.py --help

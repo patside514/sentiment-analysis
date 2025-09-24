@@ -1,0 +1,37 @@
+Usage: app.py [OPTIONS]
+
+  Social Media Sentiment Analysis Tool
+
+  Extract and analyze sentiment from social media posts about a specific
+  service or brand.
+
+  Example usage:
+
+      python app.py --service "Uber" --source "twitter" --days 30
+      python app.py -s "Netflix" -src "facebook" -d 15 -m 200
+      python app.py --service "Airbnb" --source "google_reviews" --format html
+
+Options:
+  -s, --service TEXT              Service or brand name to analyze (e.g.,
+                                  "Uber", "Netflix")  [required]
+  -src, --source [twitter|facebook|google_reviews]
+                                  Social media source to analyze
+  -d, --days INTEGER RANGE        Number of days to analyze (1-60)  [1<=x<=60]
+  -m, --max-posts INTEGER RANGE   Maximum number of posts to extract (50-500)
+                                  [50<=x<=500]
+  -o, --output-dir PATH           Output directory for results
+  -f, --format [csv|json|html|all]
+                                  Output format for results
+  -l, --language [auto|fr|en]     Language for analysis (auto-detection by
+                                  default)
+  -sm, --sentiment-model [auto|textblob|transformers]
+                                  Sentiment analysis model to use
+  -km, --keyword-method [tfidf|frequency|textrank|combined]
+                                  Keyword extraction method
+  -v, --verbose                   Enable verbose output
+  -q, --quiet                     Suppress non-error output
+  -c, --config-file PATH          Configuration file path
+  -dr, --dry-run                  Perform a dry run without actual data
+                                  extraction
+  --version                       Show the version and exit.
+  --help                          Show this message and exit.

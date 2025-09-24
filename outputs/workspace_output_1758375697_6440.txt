@@ -1,0 +1,21 @@
+🚀 LIVE DEMO: Social Media Sentiment Analysis Tool
+============================================================
+This is a real execution with simulated data
+In production, this would connect to real social media APIs
+
+2025-09-20 13:41:39,714 - src.main - INFO - SocialMediaAnalyzer initialized
+📊 Analyzing sentiment for: Netflix
+📱 Source: twitter
+📅 Time period: 7 days
+📝 Max posts: 50
+
+----------------------------------------
+⏳ Starting analysis for 'Netflix' from twitter
+2025-09-20 13:41:39,714 - src.main - INFO - Starting analysis: service=Netflix, source=twitter, days=7, max_posts=50
+⏳ Extracting data from social media...
+2025-09-20 13:41:39,714 - src.extractors.twitter_extractor - WARNING - Twitter API credentials not available, will use snscrape
+2025-09-20 13:41:39,714 - src.extractors.twitter_extractor - INFO - Extracting Twitter posts for 'Netflix' from last 7 days
+2025-09-20 13:41:39,714 - src.extractors.base_extractor - ERROR - Extraction error in Twitter extraction: No Twitter extraction method available
+2025-09-20 13:41:39,714 - src.main - INFO - Extracted 0 posts from twitter
+2025-09-20 13:41:39,714 - src.main - ERROR - No data extracted
+❌ Analysis failed

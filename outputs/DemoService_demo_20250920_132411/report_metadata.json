@@ -1,0 +1,13 @@
+{
+  "service": "DemoService",
+  "source": "demo",
+  "analysis_date": "2025-09-20T13:24:11.432073",
+  "parameters": {},
+  "statistics": {},
+  "file_locations": {
+    "raw_data": "raw_data_*.csv",
+    "processed_data": "processed_data_*.csv",
+    "sentiment_summary": "sentiment_summary.json",
+    "keywords": "keywords_*.csv"
+  }
+}

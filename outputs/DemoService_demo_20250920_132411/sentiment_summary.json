@@ -1,0 +1,13 @@
+{
+  "total": 50,
+  "positive": 7,
+  "negative": 0,
+  "neutral": 43,
+  "percentages": {
+    "positive": 14.0,
+    "negative": 0.0,
+    "neutral": 86.0
+  },
+  "average_polarity": 0.095,
+  "average_confidence": 0.095
+}

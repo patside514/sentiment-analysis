@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Sentiment Analysis Report - DemoService</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+            margin-top: 30px;
+        }
+        .summary-box {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 5px solid #3498db;
+        }
+        .metric {
+            display: inline-block;
+            margin: 10px 20px 10px 0;
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .positive { background-color: #27ae60; }
+        .negative { background-color: #e74c3c; }
+        .neutral { background-color: #95a5a6; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Social Media Sentiment Analysis Report</h1>
+        <h2 style="text-align: center; color: #3498db;">Service: DemoService | Source: Demo</h2>
+        <p style="text-align: center; color: #7f8c8d; font-style: italic;">Generated on 2025-09-20 13:24:11</p>
+        
+        <div class="summary-box">
+            <h3>📊 Executive Summary</h3>
+            <div style="margin-bottom: 20px;">
+                <p><strong>Overall Assessment:</strong> The sentiment analysis reveals a <span class="neutral">mixed</span> 
+                response to the service across social media platforms.</p>
+            </div>
+            
+            <div style="margin-bottom: 20px;">
+                <span class="metric positive">Positive: 14.0%</span>
+                <span class="metric negative">Negative: 0.0%</span>
+                <span class="metric neutral">Neutral: 86.0%</span>
+                <span class="metric">Total Posts: 50</span>
+            </div>
+            
+            <div style="margin-bottom: 20px;">
+                <p><strong>Average Sentiment Score:</strong> 0.000 
+                (Neutral)</p>
+            </div>
+            
+            <div>
+                <p><strong>Top Keywords:</strong></p>
+                <div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 15px 0;">
+                    <span class="keyword-tag" style="background-color: #3498db; color: white; padding: 5px 10px; border-radius: 15px; font-size: 0.9em;">demoservic</span>
+                    <span class="keyword-tag" style="background-color: #3498db; color: white; padding: 5px 10px; border-radius: 15px; font-size: 0.9em;">servic</span>
+                    <span class="keyword-tag" style="background-color: #3498db; color: white; padding: 5px 10px; border-radius: 15px; font-size: 0.9em;">utilis</span>
+                    <span class="keyword-tag" style="background-color: #3498db; color: white; padding: 5px 10px; border-radius: 15px; font-size: 0.9em;">content</span>
+                    <span class="keyword-tag" style="background-color: #3498db; color: white; padding: 5px 10px; border-radius: 15px; font-size: 0.9em;">vi</span>
+                </div>
+            </div>
+        </div>
+        
+        <h2>🎯 Sentiment Analysis Results</h2>
+        <div style="text-align: center; margin: 20px 0; padding: 15px; background-color: #fafafa; border-radius: 8px;">
+            <h3>Sentiment Distribution</h3>
+            <p style="color: gray; font-style: italic;">Chart visualization would appear here</p>
+        </div>
+        
+        <h2>🔑 Keyword Analysis</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Keyword</th>
+                    <th>Frequency</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td><strong>demoservic</strong></td><td>50</td><td>1.000</td></tr>
+                <tr><td>2</td><td><strong>servic</strong></td><td>7</td><td>0.125</td></tr>
+                <tr><td>3</td><td><strong>utilis</strong></td><td>6</td><td>0.111</td></tr>
+                <tr><td>4</td><td><strong>content</strong></td><td>4</td><td>0.069</td></tr>
+                <tr><td>5</td><td><strong>vi</strong></td><td>4</td><td>0.069</td></tr>
+            </tbody>
+        </table>
+        
+        <h2>⚙️ Technical Details</h2>
+        <div class="summary-box">
+            <h4>Data Extraction Statistics</h4>
+            <ul>
+                <li>Posts Extracted: 50</li>
+                <li>Errors Encountered: 0</li>
+                <li>Success Rate: 100.0%</li>
+            </ul>
+            
+            <h4>Analysis Parameters</h4>
+            <ul>
+                <li>Service: DemoService</li>
+                <li>Source: demo</li>
+                <li>Time Period: 30 days</li>
+                <li>Max Posts: 50</li>
+            </ul>
+            
+            <h4>Processing Details</h4>
+            <ul>
+                <li>Sentiment Analysis: Multi-model approach (TextBlob + Transformers)</li>
+                <li>Keyword Extraction: Combined TF-IDF, Frequency, and TextRank</li>
+                <li>Language Support: French and English</li>
+                <li>Data Validation: Comprehensive filtering and cleaning</li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <p>Generated by Social Media Sentiment Analysis Tool</p>
+            <p>Report generated on 2025-09-20 13:24:11</p>
+        </div>
+    </div>
+</body>
+</html>

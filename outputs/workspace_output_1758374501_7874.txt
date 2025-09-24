@@ -1,0 +1,41 @@
+
+    ╔═══════════════════════════════════════════════════════════════════════╗
+    ║                                                                       ║
+    ║  🚀 Social Media Sentiment Analysis Tool 🚀                          ║
+    ║                                                                       ║
+    ║  Extract and analyze sentiment from social media platforms            ║
+    ║  Powered by NLP and Machine Learning                                  ║
+    ║                                                                       ║
+    ╚═══════════════════════════════════════════════════════════════════════╝
+    
+
+
+    📋 Configuration Summary:
+    
+    🔍 Analysis Parameters:
+       Service: Uber
+       Source: TWITTER
+       Time Period: 30 days
+       Max Posts: 500
+    
+    ⚙️ Processing Options:
+       Language: auto
+       Sentiment Model: auto
+       Keyword Method: combined
+       Output Format: ALL
+    
+
+
+🔍 DRY RUN MODE - Simulation Only
+
+
+📊 Expected Output Preview:
+   • CSV files with raw and processed data
+   • Sentiment analysis results
+   • Keyword extraction results
+   • Visualization charts (pie, bar, trend)
+   • Word clouds
+   • Comprehensive HTML report
+
+✅ Dry run completed successfully!
+   Run without --dry-run to perform actual analysis.
