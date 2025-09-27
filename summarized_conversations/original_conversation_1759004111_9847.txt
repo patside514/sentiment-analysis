@@ -1,0 +1,1 @@
+{'role': 'assistant', 'content': 'Maintenant installons quelques dépendances supplémentaires :\n\n<function_calls>\n<execute-command>\npip install click beautifulsoup4 lxml wordcloud pillow\n</execute-command>\n</function_calls>'}

@@ -1,0 +1,1 @@
+{'role': 'assistant', 'content': '<function_calls>\n<execute-command>\ncat /workspace/examples/sample_report.html | head -30\n</execute-command>\n</function_calls>'}

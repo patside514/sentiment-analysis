@@ -1,0 +1,75 @@
+🚀 Social Media Sentiment Analysis - Simple Test
+============================================================
+Testing core functionality without external dependencies...
+
+🧪 Testing Sentiment Analysis
+----------------------------------------
+2025-09-26 18:10:12,553 - src.nlp.sentiment_analyzer - INFO - TextBlob sentiment analysis available
+
+1. Text: J'adore ce produit, il est excellent !
+   Language: auto
+   Sentiment: positive
+   Polarity: 1.000
+   Confidence: 1.000
+   Method: textblob_en
+
+2. Text: Ce service est vraiment nul, je déteste.
+   Language: auto
+   Sentiment: neutral
+   Polarity: 0.000
+   Confidence: 0.000
+   Method: textblob_en
+
+3. Text: C'est correct, sans plus.
+   Language: auto
+   Sentiment: neutral
+   Polarity: 0.000
+   Confidence: 0.000
+   Method: textblob_en
+
+4. Text: I love this product, it's amazing!
+   Language: auto
+   Sentiment: positive
+   Polarity: 0.625
+   Confidence: 0.625
+   Method: textblob_en
+
+5. Text: This service is terrible, I hate it.
+   Language: auto
+   Sentiment: negative
+   Polarity: -0.900
+   Confidence: 0.900
+   Method: textblob_en
+
+6. Text: It's okay, nothing special.
+   Language: auto
+   Sentiment: positive
+   Polarity: 0.429
+   Confidence: 0.429
+   Method: textblob_en
+
+
+🔑 Testing Keyword Extraction
+----------------------------------------
+
+Using Frequency Method:
+1. servic (freq: 2, score: 1.000)
+2. excellent (freq: 2, score: 1.000)
+3. tre (freq: 2, score: 1.000)
+4. qualit (freq: 2, score: 1.000)
+5. support (freq: 2, score: 1.000)
+
+
+📊 Testing Visualizations
+----------------------------------------
+✅ Sentiment pie chart created
+✅ Sentiment bar chart created
+✅ Keyword frequency chart created
+
+📈 All visualizations created successfully!
+
+============================================================
+✅ All tests completed successfully!
+
+The application core functionality is working correctly.
+To run full analysis with real data, configure API keys in .env file

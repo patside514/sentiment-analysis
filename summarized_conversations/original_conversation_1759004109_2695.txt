@@ -1,0 +1,1 @@
+{'role': 'assistant', 'content': 'Maintenant, testons l\'application pour vérifier qu\'elle fonctionne correctement :\n\n<function_calls>\n<execute-command>\ncd /workspace && python -c "import src.config; print(\'✅ Configuration module loaded successfully\')"\n</execute-command>\n</function_calls>'}

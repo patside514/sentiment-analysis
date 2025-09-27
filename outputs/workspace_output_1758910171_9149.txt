@@ -1,0 +1,122 @@
+🎯 Social Media Sentiment Analysis - Demo
+============================================================
+This demo showcases the capabilities of the sentiment analysis tool
+using simulated data when APIs are not available.
+
+🧠 Demo: Sentiment Analysis
+==================================================
+2025-09-26 18:09:33,678 - src.nlp.sentiment_analyzer - INFO - TextBlob sentiment analysis available
+
+Analyzing sample texts:
+
+1. Text: J'adore ce produit ! Il est génial et très pratiqu...
+   Sentiment: neutral (confidence: 0.000)
+   Polarity: 0.000
+
+2. Text: Ce service est nul, je déteste vraiment....
+   Sentiment: neutral (confidence: 0.000)
+   Polarity: 0.000
+
+3. Text: C'est correct, sans plus. Rien de spécial....
+   Sentiment: neutral (confidence: 0.000)
+   Polarity: 0.000
+
+4. Text: Excellent service client, très réactif et professi...
+   Sentiment: positive (confidence: 1.000)
+   Polarity: 1.000
+
+5. Text: Déçu par la qualité, ça ne vaut pas le prix....
+   Sentiment: neutral (confidence: 0.000)
+   Polarity: 0.000
+
+📊 Batch analysis summary:
+Total texts: 5
+Positive: 1 (20.0%)
+Negative: 0 (0.0%)
+Neutral: 4 (80.0%)
+
+
+🔑 Demo: Keyword Extraction
+==================================================
+
+Extracting keywords using different methods:
+
+📍 Method: TFIDF
+   1. servic (score: 0.404, freq: 4)
+   2. qualit (score: 0.367, freq: 5)
+   3. excellent (score: 0.192, freq: 2)
+   4. tre (score: 0.192, freq: 3)
+   5. actif (score: 0.192, freq: 2)
+
+📍 Method: FREQUENCY
+   1. qualit (score: 1.000, freq: 5)
+   2. servic (score: 0.800, freq: 4)
+   3. client (score: 0.400, freq: 2)
+   4. excellent (score: 0.400, freq: 2)
+   5. tre (score: 0.400, freq: 2)
+
+📍 Method: TEXTRANK
+2025-09-26 18:09:33,819 - src.nlp.keyword_extractor - WARNING - spaCy not available, falling back to TF-IDF
+   1. servic (score: 0.404, freq: 4)
+   2. qualit (score: 0.367, freq: 5)
+   3. excellent (score: 0.192, freq: 2)
+   4. tre (score: 0.192, freq: 3)
+   5. actif (score: 0.192, freq: 2)
+
+📍 Method: COMBINED
+2025-09-26 18:09:33,823 - src.nlp.keyword_extractor - WARNING - spaCy not available, falling back to TF-IDF
+   1. qualit (score: 0.578, freq: 15)
+   2. servic (score: 0.536, freq: 12)
+   3. excellent (score: 0.261, freq: 6)
+   4. actif (score: 0.261, freq: 6)
+   5. tre (score: 0.261, freq: 8)
+
+
+📊 Demo: Visualizations
+==================================================
+Generating sample visualizations...
+✅ Sentiment pie chart generated
+✅ Sentiment bar chart generated
+✅ Keyword frequency chart generated
+✅ Summary dashboard generated
+
+📈 Visualizations created successfully!
+
+
+🚀 Demo: Complete Analysis Workflow
+==================================================
+Generating demo data...
+✅ Generated 50 demo posts
+
+Simulating complete analysis...
+2025-09-26 18:09:33,933 - src.main - INFO - SocialMediaAnalyzer initialized
+2025-09-26 18:09:33,933 - src.nlp.sentiment_analyzer - INFO - TextBlob sentiment analysis available
+2025-09-26 18:09:33,950 - src.nlp.keyword_extractor - WARNING - spaCy not available, falling back to TF-IDF
+2025-09-26 18:09:33,959 - src.utils.file_manager - INFO - Saved 50 records to raw_data_20250926_180933.csv
+2025-09-26 18:09:33,959 - src.utils.file_manager - INFO - Saved JSON data to sentiment_summary
+2025-09-26 18:09:33,959 - src.utils.file_manager - INFO - Saved JSON data to report_metadata
+2025-09-26 18:09:33,960 - src.utils.file_manager - INFO - Analysis report saved to /workspace/outputs/DemoService_demo_20250926_180933
+✅ Analysis completed successfully!
+📁 Results saved to: /workspace/outputs/DemoService_demo_20250926_180933
+
+📊 Sentiment Summary:
+   Total posts: 50
+   Positive: 15 (30.0%)
+   Negative: 0 (0.0%)
+   Neutral: 35 (70.0%)
+
+🔑 Top Keywords:
+   1. demoservic (score: 1.000)
+   2. chez (score: 0.091)
+   3. client (score: 0.091)
+   4. est (score: 0.061)
+   5. sui (score: 0.061)
+
+============================================================
+✅ Demo completed successfully!
+
+To run real analysis with actual social media data:
+1. Configure your API keys in .env file
+2. Run: python app.py --service 'YourService' --source 'twitter' --days 30
+
+For more options, run: python app.py --help

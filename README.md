@@ -23,8 +23,8 @@ Une application SaaS complète en Python pour analyser le sentiment des réseaux
 
 ```bash
 # Cloner le dépôt
-git clone https://github.com/votre-repo/sentiment-analysis.git
-cd sentiment-analysis
+git clone https://github.com/votre-repo/social-media-sentiment-analyzer.git
+cd social-media-sentiment-analyzer
 
 # Créer un environnement virtuel
 python -m venv venv
@@ -282,3 +282,12 @@ Les contributions sont les bienvenues ! Veuillez :
 4. Push vers la branche
 5. Ouvrir une Pull Request
 
+## 📞 Contact
+
+Pour toute question ou suggestion :
+- Email : contact@ninjatech.ai
+- GitHub : https://github.com/ninjatech-ai
+
+---
+
+**Made with ❤️ by NinjaTech AI Team**

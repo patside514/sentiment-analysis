@@ -1,0 +1,1 @@
+{'role': 'assistant', 'content': 'Enfin, exécutons l\'application principale en mode dry-run pour voir l\'interface CLI :\n\n<function_calls>\n<execute-command>\ncd /workspace && PYTHONPATH=/workspace python app.py --service "Netflix" --source "twitter" --days 7 --max-posts 50 --dry-run\n</execute-command>\n</function_calls>'}

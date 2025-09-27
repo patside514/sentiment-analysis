@@ -33,3 +33,14 @@
 2025-09-20 13:41:39,714 - src.extractors.base_extractor - ERROR - Extraction error in Twitter extraction: No Twitter extraction method available
 2025-09-20 13:41:39,714 - src.main - INFO - Extracted 0 posts from twitter
 2025-09-20 13:41:39,714 - src.main - ERROR - No data extracted
+2025-09-26 18:09:33,678 - src.nlp.sentiment_analyzer - INFO - TextBlob sentiment analysis available
+2025-09-26 18:09:33,819 - src.nlp.keyword_extractor - WARNING - spaCy not available, falling back to TF-IDF
+2025-09-26 18:09:33,823 - src.nlp.keyword_extractor - WARNING - spaCy not available, falling back to TF-IDF
+2025-09-26 18:09:33,933 - src.main - INFO - SocialMediaAnalyzer initialized
+2025-09-26 18:09:33,933 - src.nlp.sentiment_analyzer - INFO - TextBlob sentiment analysis available
+2025-09-26 18:09:33,950 - src.nlp.keyword_extractor - WARNING - spaCy not available, falling back to TF-IDF
+2025-09-26 18:09:33,959 - src.utils.file_manager - INFO - Saved 50 records to raw_data_20250926_180933.csv
+2025-09-26 18:09:33,959 - src.utils.file_manager - INFO - Saved JSON data to sentiment_summary
+2025-09-26 18:09:33,959 - src.utils.file_manager - INFO - Saved JSON data to report_metadata
+2025-09-26 18:09:33,960 - src.utils.file_manager - INFO - Analysis report saved to /workspace/outputs/DemoService_demo_20250926_180933
+2025-09-26 18:10:12,553 - src.nlp.sentiment_analyzer - INFO - TextBlob sentiment analysis available

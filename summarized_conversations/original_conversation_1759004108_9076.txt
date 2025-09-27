@@ -1,0 +1,1 @@
+{'role': 'user', 'content': '<tool_result> <str-replace> ToolResult(success=False, output="String \'## 6. Tests et documentation\\n- [ ] Créer des exemples de configuration\\n- [ ] Créer README.md avec documentation complète\\n- [ ] Tester l\'application avec différents services\' not found in file") </str-replace> </tool_result>'}

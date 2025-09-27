@@ -1,0 +1,1 @@
+{'role': 'assistant', 'content': 'Je vais exécuter l\'application pour vous montrer son fonctionnement en temps réel. Commençons par un test simple :\n\n<function_calls>\n<execute-command>\ncd /workspace && PYTHONPATH=/workspace python app.py --service "Netflix" --source "twitter" --days 7 --max-posts 10 --dry-run --verbose\n</execute-command>\n</function_calls>'}

@@ -1,0 +1,20 @@
+# 🚀 Social Media Sentiment Analysis Tool
+
+Une application SaaS complète en Python pour analyser le sentiment des réseaux sociaux à partir de Twitter, Facebook et Google Reviews.
+
+## 📋 Fonctionnalités
+
+- **Extraction multi-plateformes** : Twitter, Facebook, Google Reviews
+- **Analyse de sentiment** : TextBlob + Transformers (modèles multilingues)
+- **Extraction de mots-clés** : TF-IDF, fréquence, TextRank, combinaison
+- **Visualisations** : Graphiques matplotlib, nuages de mots, tableaux de bord
+- **Rapports complets** : HTML, CSV, JSON
+- **Interface CLI** : Facile à utiliser avec options détaillées
+- **Support multilingue** : Français et Anglais avec détection automatique
+
+## 🛠️ Installation
+
+### Prérequis
+
+- Python 3.10 ou supérieur
+- pip (gestionnaire de paquets Python)

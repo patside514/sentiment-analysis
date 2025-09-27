@@ -1,0 +1,18 @@
+total 60
+drwxr-xr-x 1 root root   49 Sep 20 13:42 .
+drwxr-xr-x 1 root root  122 Sep 26 18:00 ..
+-rw-r--r-- 1 root root   29 Sep 26 18:07 .created
+-rw-r--r-- 1 root root  592 Sep 20 13:26 .env
+-rw-r--r-- 1 root root  705 Sep 20 13:18 .env.example
+-rw-r--r-- 1 root root 5575 Sep 20 13:42 EXECUTION_SUMMARY.md
+-rw-r--r-- 1 root root 7813 Sep 20 13:29 PROJECT_SUMMARY.md
+-rw-r--r-- 1 root root 8889 Sep 20 13:19 README.md
+-rw-r--r-- 1 root root  538 Sep 20 13:17 app.py
+drwxr-xr-x 2 root root   10 Sep 20 13:01 config
+drwxr-xr-x 2 root root   10 Sep 20 13:01 data
+drwxr-xr-x 2 root root  144 Sep 20 13:41 examples
+drwxr-xr-x 1 root root 4096 Sep 26 18:24 outputs
+-rw-r--r-- 1 root root  546 Sep 20 13:01 requirements.txt
+-rw-r--r-- 1 root root 1640 Sep 20 13:17 setup.py
+drwxr-xr-x 7 root root  170 Sep 20 13:20 src
+-rw-r--r-- 1 root root 1730 Sep 20 13:27 todo.md

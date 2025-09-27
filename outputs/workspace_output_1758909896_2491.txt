@@ -1,0 +1,5 @@
+﻿"id","text","created_at","source","service","likes","shares","comments"
+"demo_post_1","Service impeccable avec DemoService, toujours satisfait.","2025-09-07T00:37:44.117964","demo","DemoService","45","39","12"
+"demo_post_2","DemoService est un service que j'utilise régulièrement.","2025-08-26T14:37:44.117964","demo","DemoService","23","12","14"
+"demo_post_3","J'adore DemoService ! C'est vraiment génial et super pratique.","2025-09-16T18:37:44.117964","demo","DemoService","74","15","13"
+"demo_post_4","DemoService est comme les autres, standard. #DemoService71","2025-09-14T16:37:44.117964","demo","DemoService","87","32","16"

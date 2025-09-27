@@ -1,0 +1,1 @@
+{'role': 'assistant', 'content': 'Il faut installer les dépendances. Commençons par installer les packages essentiels :\n\n<function_calls>\n<execute-command>\npip install python-dotenv colorama tqdm pandas numpy matplotlib seaborn scikit-learn nltk textblob\n</execute-command>\n</function_calls>'}

@@ -1,0 +1,1 @@
+{'role': 'user', 'content': 'est-il possible de voir le output du workspace?\n'}

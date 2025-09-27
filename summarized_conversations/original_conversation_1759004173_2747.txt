@@ -1,0 +1,1 @@
+{'role': 'user', 'content': "Est-il possible d'avoir une interface client?\n"}

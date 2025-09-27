@@ -1,0 +1,1 @@
+{'role': 'assistant', 'content': 'Maintenant lançons le test simple pour montrer le fonctionnement des composants :\n\n<function_calls>\n<execute-command>\ncd /workspace && PYTHONPATH=/workspace python examples/simple_test.py\n</execute-command>\n</function_calls>'}

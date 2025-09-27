@@ -1,0 +1,5 @@
+﻿"id","text","created_at","source","service","likes","shares","comments"
+"demo_post_1","DemoService est comme les autres, standard.","2025-09-06T03:09:33.932389","demo","DemoService","1","42","4"
+"demo_post_2","DemoService est top qualité, je suis très content.","2025-08-30T01:09:33.932389","demo","DemoService","56","30","7"
+"demo_post_3","DemoService est top qualité, je suis très content. #DemoService75","2025-09-05T05:09:33.932389","demo","DemoService","23","40","12"
+"demo_post_4","Service impeccable avec DemoService, toujours satisfait.","2025-08-28T00:09:33.932389","demo","DemoService","60","13","13"

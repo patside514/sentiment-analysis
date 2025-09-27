@@ -1,0 +1,1 @@
+{'role': 'user', 'content': 'ou se trouve le workspace?\n'}

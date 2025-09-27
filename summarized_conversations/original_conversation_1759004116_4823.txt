@@ -1,0 +1,1 @@
+{'role': 'assistant', 'content': "Corrigons le problème d'import :\n\n<function_calls>\n<execute-command>\ncd /workspace && PYTHONPATH=/workspace python examples/demo_analysis.py\n</execute-command>\n</function_calls>"}

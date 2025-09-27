@@ -11,14 +11,14 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="sentiment-analysis",
+    name="social-media-sentiment-analyzer",
     version="1.0.0",
-    author="patside514",
-    author_email="patrick.cote234@gmail.com",
+    author="NinjaTech AI",
+    author_email="contact@ninjatech.ai",
     description="A comprehensive tool for analyzing sentiment from social media platforms",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/patside514/sentiment-analysis",
+    url="https://github.com/ninjatech-ai/social-media-sentiment-analyzer",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",

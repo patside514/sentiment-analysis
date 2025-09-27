@@ -1,0 +1,1 @@
+{'role': 'assistant', 'content': 'Installons requests et lançons la démo :\n\n<function_calls>\n<execute-command>\npip install requests\n</execute-command>\n</function_calls>'}

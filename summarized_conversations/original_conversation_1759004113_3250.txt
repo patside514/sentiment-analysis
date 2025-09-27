@@ -1,0 +1,1 @@
+{'role': 'assistant', 'content': 'Excellent ! L\'application fonctionne. Maintenant testons avec une analyse de simulation (dry-run) :\n\n<function_calls>\n<execute-command>\ncd /workspace && python app.py --service "Uber" --source "twitter" --days 30 --dry-run\n</execute-command>\n</function_calls>'}

@@ -1,0 +1,1 @@
+{'role': 'assistant', 'content': 'Maintenant, créons la structure complète du projet et commençons par les configurations de base.\n<function_calls>\n<execute-command>\nmkdir -p src/extractors src/nlp src/visualization src/utils data outputs config examples\n</execute-command>\n</function_calls>'}

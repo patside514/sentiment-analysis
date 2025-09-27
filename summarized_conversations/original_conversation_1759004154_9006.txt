@@ -1,0 +1,1 @@
+{'role': 'assistant', 'content': "Je vais exécuter l'application pour vous montrer son fonctionnement. Commençons par la démo d'analyse qui utilise des données simulées :\n\n<function_calls>\n<execute-command>\ncd /workspace && PYTHONPATH=/workspace python examples/demo_analysis.py\n</execute-command>\n</function_calls>"}
